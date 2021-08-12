@@ -11,6 +11,8 @@
 // https://on.cypress.io/commands
 // ***********************************************
 
+require('cypress-localstorage-commands')
+
 Cypress.Commands.add('createDefaultTodos', function () {
 
   let TODO_ITEM_ONE = 'buy some cheese'
@@ -95,3 +97,21 @@ Cypress.Commands.add('addAxeCode', () => {
     })
   })
 })
+
+Cypress.Commands.add('addItemsToLocalstorage', function (todoItems) {
+
+  cy.setLocalStorage(todoItems.key, JSON.stringify(todoItems.value))
+
+  Cypress.log({
+    name: 'Added default todos to local storage',
+    message: [],
+    consoleProps () {
+      return {
+        'Added items': todoItems.value,
+      }
+    },
+  })
+
+})
+
+

@@ -1,0 +1,40 @@
+{
+    "key":"react-todos",
+    "value":[
+       {
+          "id":"9a4292d7-227a-4af9-992f-a023b7beaac8",
+          "title":"Todo item one",
+          "completed":false
+       },
+       {
+          "id":"bf9fc1ef-016f-44bd-bf8e-790101be6307",
+          "title":"Todo item two",
+          "completed":false
+       },
+       {
+          "id":"a1d74705-d5f5-4654-8b83-679dfaeeff61",
+          "title":"Todo item three",
+          "completed":false
+       },
+       {
+          "id":"3175091d-5e0d-4e36-89ad-c7b9ceb93857",
+          "title":"Todo item four",
+          "completed":true
+       },
+       {
+          "id":"b833ab08-2e46-4f05-96d9-585b9823ac4f",
+          "title":"Todo item five",
+          "completed":false
+       },
+       {
+          "id":"e5933cb9-fc93-40af-84ce-de8b601db8e4",
+          "title":"Todo item six",
+          "completed":false
+       },
+       {
+          "id":"1e1d581b-f1b6-4060-a5dc-1a1bfd950ae1",
+          "title":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "completed":true
+       }
+    ]
+ }
